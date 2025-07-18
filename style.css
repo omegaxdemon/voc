@@ -1,0 +1,48 @@
+body {
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+input::placeholder {
+  color: #6c757d;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 4px solid #0d6efd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #dee2e6;
+  border-top: 6px solid #0d6efd;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 30px auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toast {
+  z-index: 9999;
+  min-width: 250px;
+}
+#change{
+    background-color: greenyellow;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
